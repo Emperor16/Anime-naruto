@@ -115,7 +115,8 @@ section{
     margin-bottom: 20rem;
 }
 .Herculean-img img:hover{
-    transform: translateY(5%);
+    transform: scale(1.01);
+    transition: all 0.6s;
 }
 
 .Herculean-text span{
@@ -293,10 +294,7 @@ section{
     transition: all 0.6s;
 }
 
-/* .Scroll-btn i :active{
-    background-color:var(--main-color);
-    color:#101010;
-} */
+
 .Scroll-btn i:active{
     transform: translateY(-40%);
 }
@@ -399,7 +397,7 @@ section{
     }
 
     .Herculean-img img:hover{
-        transform: translateY(-7%);
+        scale: (1.1);
     }
     .section{
         padding: 34px;
